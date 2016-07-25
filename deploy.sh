@@ -1,5 +1,4 @@
 #!/bin/bash
-# docker build -t peco8/sample-node .
 docker push peco8/sample-node
 
 ssh deploy@159.203.176.175 << EOF
